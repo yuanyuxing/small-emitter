@@ -1,6 +1,6 @@
 {
-  "name": "simple-emitter",
-  "version": "0.0.1",
+  "name": "small-emitter",
+  "version": "0.0.2",
   "description": "a simple release and subscription lib",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -18,7 +18,8 @@
     "build": "tsup",
     "dev": "tsup --watch src",
     "test": "jest",
-    "release": "bumpp package.json --commit --push --tag"
+    "release": "bumpp package.json --commit --push --tag",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
