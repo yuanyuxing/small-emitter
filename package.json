@@ -1,6 +1,6 @@
 {
   "name": "simple-emitter",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1",
   "description": "a simple release and subscription lib",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
