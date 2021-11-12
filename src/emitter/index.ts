@@ -51,4 +51,4 @@ class Emitter {
 
 const createEmitter = () => new Emitter()
 
-export default createEmitter
+export { createEmitter }

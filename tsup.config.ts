@@ -6,7 +6,7 @@ export const tsup: Options = {
   entryPoints: [
     'src/index.ts',
   ],
-  target: 'node14',
+  target: 'es2018',
   clean: true,
   dts: true,
 }
