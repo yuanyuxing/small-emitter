@@ -1,6 +1,6 @@
 {
   "name": "small-emitter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a simple release and subscription lib",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -23,20 +23,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuanyuxing/simple-emitter.git"
+    "url": "git+https://github.com/yuanyuxing/small-emitter.git"
   },
   "keywords": [
     "emitter",
-    "simple",
-    "simple-emiter",
+    "small",
+    "small-emiter",
     "emit"
   ],
   "author": "yuanyuxing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuanyuxing/simple-emitter/issues"
+    "url": "https://github.com/yuanyuxing/small-emitter/issues"
   },
-  "homepage": "https://github.com/yuanyuxing/simple-emitter#readme",
+  "homepage": "https://github.com/yuanyuxing/small-emitter#readme",
   "devDependencies": {
     "@antfu/eslint-config": "^0.10.0",
     "@types/jest": "^27.0.2",
@@ -46,7 +46,11 @@
     "eslint": "7.28.0",
     "jest": "^27.3.1",
     "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
     "tsup": "^5.6.0",
     "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "small-emitter": "^0.0.4"
   }
 }
