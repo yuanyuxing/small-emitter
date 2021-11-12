@@ -1,6 +1,6 @@
 {
   "name": "small-emitter",
-  "version": "0.0.5",
+  "version": "0.0.6-beta.1",
   "description": "a simple release and subscription lib",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
