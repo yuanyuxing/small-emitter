@@ -38,7 +38,6 @@ export interface EmitterOption {
   off(name: string, fn: EmitterFucn, ctx: any): void
 }
 
-
 class Emitter {
   private _events = new Map<string, EmitterItemOption[]>()
 
@@ -61,7 +60,8 @@ class Emitter {
     const events = this._events || []
     const evts = events.get(name)
 
-    if (!evts) throw new Error(`you do not subscribe ${name} thing`)
+    if (!evts)
+      throw new Error(`you do not subscribe ${name} thing`)
 
     evts.forEach((v) => {
       v.fn.apply(v.ctx, args)
@@ -76,10 +76,12 @@ class Emitter {
     const evts = events.get(name)
     const liveEvent = []
 
-    if (!evts) throw new Error(`no remove ${name} thing`)
+    if (!evts)
+      throw new Error(`no remove ${name} thing`)
 
     events.set(name, evts.filter((v) => {
-      if (v.fn !== callFn) liveEvent.push(v)
+      if (v.fn !== callFn)
+        liveEvent.push(v)
       return v.fn !== callFn
     }))
 

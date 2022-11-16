@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest'
 
-import { createEmitter } from '../src/emitter'
+import { createEmitter } from '@yyxing/small-emitter'
 
 describe('Emitter test', () => {
   test('emitt on test', () => {
